@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+@keyframes strokeOffset {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+g .mask {
+    fill: none;
+    
+}
+#mask-lt {
+    animation: strokeOffset 0.5s linear forwards;
+}
+#mask-h1 {
+    animation: strokeOffset 0.5s linear forwards 1s; 
+}
+#mask-h2 {
+    animation: strokeOffset 0.5s linear forwards 1s; 
+}
+#mask-h3 {
+    animation: strokeOffset 0.5s linear forwards 1.5s; 
+}
+#mask-h4 {
+    animation: strokeOffset 0.5s linear forwards 2s; 
+}
+#mask-ell {
+    animation: strokeOffset 0.5s linear forwards 2.5s; 
+}
+#mask-o {
+    animation: strokeOffset 0.5s linear forwards 3s; 
+}
+#mask-w1 {
+    animation: strokeOffset 0.5s linear forwards 3.5s; 
+}
+#mask-w2 {
+    animation: strokeOffset 0.5s linear forwards 4s; 
+}
+#mask-w3 {
+    animation: strokeOffset 0.5s linear forwards 4.5s; 
+}
+#mask-world-o {
+    animation: strokeOffset 0.5s linear forwards 5s; 
+}
+#mask-r1 {
+    animation: strokeOffset 0.5s linear forwards 5.3s; 
+}
+#mask-r2 {
+    animation: strokeOffset 0.5s linear forwards 5.5s; 
+}
+#mask-r3 {
+    animation: strokeOffset 0.5s linear forwards 5.9s; 
+}
+#mask-world-l {
+    animation: strokeOffset 0.5s linear forwards 6.2s; 
+}
+#mask-d1 {
+    animation: strokeOffset 0.5s linear forwards 6.8s; 
+}
+#mask-d2 {
+    animation: strokeOffset 0.5s linear forwards 7.2s; 
+}
+#mask-stroke {
+    animation: strokeOffset 0.5s linear forwards 7.8s; 
+}
+#mask-gt {
+    animation: strokeOffset 0.5s linear forwards 8s; 
+}
