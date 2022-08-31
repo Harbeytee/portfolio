@@ -286,7 +286,7 @@ box-shadow: 7px 7px 27px 8px #184E68, -7px -7px 27px 8px #184E68;
     display: flex;
    
     left: 50%;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -50%);
     flex-direction: column;
     justify-content: center;
@@ -341,7 +341,7 @@ img {
      
  }
  .project-tiles {
-    height: 300px;
+    height: 330px;
     width: 100%;
     /*display: flex;*/
    
@@ -355,7 +355,7 @@ img {
     /*padding: 4rem;*/
     /*margin: 6rem 6rem 0;*/
     /*gap: 20px;*/
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
     
     box-shadow: rgba(1, 1, 1, 0.3) 2px 8px 8px;
     border: 2px rgba(255,255,255,0.4) solid;
@@ -371,13 +371,13 @@ img {
     
  }
 .proj-background {
-    background-color:rgba(20, 3, 20, 0.87);
-    height: 300px;
+    background-color:rgba(20, 3, 20, 0.945);
+    height: 330px;
    width: 100%;
     padding: 2rem 1.2rem;
 }
 .proj-background h3 {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     text-align: center;
     color: rgb(211, 208, 208);
 
