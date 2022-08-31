@@ -355,7 +355,7 @@ img {
     /*padding: 4rem;*/
     /*margin: 6rem 6rem 0;*/
     /*gap: 20px;*/
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(5px);
     
     box-shadow: rgba(1, 1, 1, 0.3) 2px 8px 8px;
     border: 2px rgba(255,255,255,0.4) solid;
