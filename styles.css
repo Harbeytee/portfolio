@@ -36,7 +36,7 @@ body {
     background-image: url(https://images.pexels.com/photos/5100154/pexels-photo-5100154.jpeg?cs=srgb&dl=pexels-ithalu-dominguez-5100154.jpg&fm=jpg);
     background-size: cover;
     background-position: center;
-    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
     color: #f9f9f9;
 
 }
