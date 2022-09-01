@@ -321,15 +321,12 @@ box-shadow: 7px 7px 27px 8px #184E68, -7px -7px 27px 8px #184E68;
     align-items: center;
 }
 
-.projects{
+#proj{
     text-align: center;
     background-color: rgba(0,0,0);
     width: 100vw;
     padding: 10rem 1rem;
-    /*position: absolute;*/
- /*  height: 100%;*/
-   left: 0;
-   right: 0;
+    
 }
 /*.project-tile {
     width: 300px;
