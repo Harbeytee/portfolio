@@ -35,14 +35,10 @@ body {
     background-color: rgb(236, 199, 230);
     background-image: url(https://images.pexels.com/photos/5100154/pexels-photo-5100154.jpeg?cs=srgb&dl=pexels-ithalu-dominguez-5100154.jpg&fm=jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 50% 50%;
     image-rendering: -webkit-optimize-contrast;
     color: #f9f9f9;
-    image-rendering: crisp-edges;
-    image-rendering: -moz-crisp-edges;          /* Firefox */
-    image-rendering: -o-crisp-edges;            /* Opera */
-    image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
-    -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
+
 
 }
 a, button {
