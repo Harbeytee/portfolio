@@ -326,7 +326,7 @@ box-shadow: 7px 7px 27px 8px #184E68, -7px -7px 27px 8px #184E68;
     background-color: rgba(0,0,0);
     width: 100vw;
     padding: 10rem 1rem;
-    position: absolute;
+    /*position: absolute;*/
  /*  height: 100%;*/
    left: 0;
    right: 0;
