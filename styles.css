@@ -323,7 +323,7 @@ box-shadow: 7px 7px 27px 8px #184E68, -7px -7px 27px 8px #184E68;
 .projects{
     text-align: center;
     background-color: rgba(0,0,0);
-    
+    width: 100%;
     padding: 10rem 1rem;
 }
 /*.project-tile {
