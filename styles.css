@@ -1,11 +1,7 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 *,
 *::before,
 *::after{
@@ -35,9 +31,10 @@ body {
     background-color: rgb(236, 199, 230);
     background-image: url(https://images.pexels.com/photos/5100154/pexels-photo-5100154.jpeg?cs=srgb&dl=pexels-ithalu-dominguez-5100154.jpg&fm=jpg);
     background-size: cover;
-    background-position: 50% 50%;
-    image-rendering: -webkit-optimize-contrast;
+    background-position: center;
+    image-rendering: pixelated;
     color: #f9f9f9;
+    max-width: 100%;
 
 
 }
@@ -327,7 +324,7 @@ box-shadow: 7px 7px 27px 8px #184E68, -7px -7px 27px 8px #184E68;
     background-color: rgba(0,0,0);
     width: 100vw;
     padding: 10rem 1rem;
-    
+    margin: 0;    
 }
 /*.project-tile {
     width: 300px;
@@ -358,14 +355,14 @@ img {
     /*padding: 4rem;*/
     /*margin: 6rem 6rem 0;*/
     /*gap: 20px;*/
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(0px);
     
-    box-shadow: rgba(1, 1, 1, 0.3) 2px 8px 8px;
+    box-shadow: /**(rgba(255, 255, 255, 0.3) 2px 8px 8px;*/ 6px 6px 7px  rgb(209, 14, 209, 0.2), -6px -6px 7px  rgba(209, 14, 209, 0.2);
     border: 2px rgba(255,255,255,0.4) solid;
     border-bottom: 2px rgba(0,0,0,0.35) solid;
     border-right: 2px rgba(4,0,4,0.35) solid;
     border-radius: 6px;
-    color: rgb(252, 249, 249);
+    color: #fff;
     /*position: relative;*/
     border: none;
     background-position: center;
@@ -374,7 +371,7 @@ img {
     
  }
 .proj-background {
-    background-color:rgba(20, 3, 20, 0.945);
+    background-color:rgba(20, 3, 20, 0.93);
     height: 330px;
    width: 100%;
     padding: 2rem 1.2rem;
