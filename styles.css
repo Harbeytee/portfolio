@@ -355,10 +355,9 @@ img {
     /*padding: 4rem;*/
     /*margin: 6rem 6rem 0;*/
     /*gap: 20px;*/
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(2px);
     
-    box-shadow: /**(rgba(255, 255, 255, 0.3) 2px 8px 8px;*/ box-shadow:  5px -5px 10px #a200a2,
-             -5px 5px 10px #a200a2;
+    /*box-shadow: /**(rgba(255, 255, 255, 0.3) 2px 8px 8px;  0.01px -0.01px 10px 0.01px #e7a9e7,-0.01px 0.01px 10px 0.01px #e7a9e7*/;
     border: 2px rgba(255,255,255,0.4) solid;
     border-bottom: 2px rgba(0,0,0,0.35) solid;
     border-right: 2px rgba(4,0,4,0.35) solid;
@@ -368,6 +367,7 @@ img {
     border: none;
     background-position: center;
     background-size: cover;
+    margin-top: 1.4rem;
     
     
  }
@@ -741,7 +741,7 @@ path {
     }
     .project-tiles, .proj-background {
         width: 400px;
-        height: 400px;
+        height: 420px;
     }
     .second h3, .second p {
         font-size: 1.2rem;
