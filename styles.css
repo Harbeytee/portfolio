@@ -357,7 +357,8 @@ img {
     /*gap: 20px;*/
     backdrop-filter: blur(0px);
     
-    box-shadow: /**(rgba(255, 255, 255, 0.3) 2px 8px 8px;*/ 6px 6px 7px  rgb(209, 14, 209, 0.2), -6px -6px 7px  rgba(209, 14, 209, 0.2);
+    box-shadow: /**(rgba(255, 255, 255, 0.3) 2px 8px 8px;*/ box-shadow:  5px -5px 10px #a200a2,
+             -5px 5px 10px #a200a2;
     border: 2px rgba(255,255,255,0.4) solid;
     border-bottom: 2px rgba(0,0,0,0.35) solid;
     border-right: 2px rgba(4,0,4,0.35) solid;
