@@ -483,15 +483,20 @@ img {
     width: 100%;
    /* max-width: 980px;*/
     white-space: nowrap;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
 }
 .contact-link a {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    font-size: larger;
+    margin-left: 0.35rem;
+    margin-right: 0.35rem;
+    font-size: 1.1rem;
     color: rgb(190, 187, 187);
+    border: 1px solid;
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 7vmin;
+    height: 7vmin;
     
 }
 .contact-link > a:hover {
