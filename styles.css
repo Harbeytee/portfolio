@@ -29,62 +29,31 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.4;
     background-color: rgb(236, 199, 230);
-    background-image: url(https://images.pexels.com/photos/5100154/pexels-photo-5100154.jpeg?cs=srgb&dl=pexels-ithalu-dominguez-5100154.jpg&fm=jpg);
-    background-size: cover;
-    background-position: center;
-    image-rendering: pixelated;
+    
     color: #f9f9f9;
     /*max-width: 100%;*/
 
 
+}
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(https://images.pexels.com/photos/5100154/pexels-photo-5100154.jpeg?cs=srgb&dl=pexels-ithalu-dominguez-5100154.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
 }
 a, button {
     cursor: pointer;
     text-decoration: none;
     color: #f9f9f9;
 }
-/*html{
-    box-sizing: border-box;
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-@media (max-width: 75em) {
-    html {
-        font-size: 60%;
-    }
-}
-@media (max-width: 61.25em) {
-    html {
-        font-size: 40%;
-    }
-}
-@media (max-width: 28.75em) {
-    html {
-        font-size: 30%;
-    }
-}
-body {
-    /*font-size:1.7rem;
-    color : #f0f0f0;
-}
-.projects a, #contact a {
-    text-decoration: none;
-    color: white;
-    padding: 1.4rem;
-}/*
-ul {
-    list-style: none;
-}
-h1{
-    font-size: 6rem;
-
-
-}
-h2 {
-    text-align: center;
-    font-size: 3rem;
-}*/
 
 
 .navbar2 {
@@ -148,19 +117,7 @@ h2 {
     z-index: 100;
     
     
-}/*
-@media only screen and (max-width: 860px) {
-    footer p {
-        font-size: 1rem;
-    }
-    .project-tile p {
-       /* font-size: 4rem;/
-    }
-    .hi, .role {
-        font-size: 1.4rem;
-    }
-    
-}*/
+}
 .container3 {
         width: 300px;
     }
@@ -190,13 +147,7 @@ h2 {
 }
 .hamburger.isactive .line:nth-child(2) {
     opacity: 0;
-}/*
-.hamburger.isactive .line:nth-child(1) {
-    transform: translateY(19px) rotate(45deg);
 }
-.hamburger.isactive .line:nth-child(3) {
-    transform: translateY(-19px) rotate(-45deg);
-}*/
 .navbar2 {
 
     
@@ -225,33 +176,8 @@ h2 {
         transform: translateX(0px); opacity: 1;
     }
 }
-/*@-o-keyframes fade{
-    from{
-        transform: translateX(-200px); opacity: 0;
-    }
-    from{
-        transform: translateX(0px); opacity: 1;
-    }
 
-}
-@-moz-keyframes fade{
-    from{
-        transform: translateX(-200px); opacity: 0;
-    }
-    from{
-        transform: translateX(0px); opacity: 1;
-    } 
 
-}
-@-webkit-keyframes fade{
-    from{
-        transform: translateX(-200px); opacity: 0;
-    }
-    from{
-        transform: translateX(0px); opacity: 1;
-    }
-
-}
 /***(*/
 #navbar{
     position: fixed;
@@ -679,7 +605,7 @@ path {
     margin: 6rem 6rem 0;
     gap: 20px;
     backdrop-filter: blur(2px);
-    background-color: rgba(0,0,0, 0.6);
+    background-color: rgba(0,0,0, 0.7);
     box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
     border: 2px rgba(255,255,255,0.4) solid;
     border-bottom: 2px rgba(0,0,0,0.35) solid;
