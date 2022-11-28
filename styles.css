@@ -35,6 +35,7 @@ body {
 
 
 }
+
 body::before {
     content: '';
     position: fixed;
@@ -200,9 +201,10 @@ box-shadow: 7px 7px 27px 8px #184E68, -7px -7px 27px 8px #184E68;
     /*background-image: url(https://images.pexels.com/photos/5100154/pexels-photo-5100154.jpeg?cs=srgb&dl=pexels-ithalu-dominguez-5100154.jpg&fm=jpg);*/
     
    
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-   position: relative;
+    
+   
     
     
 }
@@ -248,9 +250,9 @@ box-shadow: 7px 7px 27px 8px #184E68, -7px -7px 27px 8px #184E68;
 #proj{
     text-align: center;
     background-color: rgba(0,0,0);
-    width: 100vw;
     padding: 10rem 1rem;
     margin: 0;    
+    
 }
 /*.project-tile {
     width: 300px;
@@ -389,8 +391,9 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgb(82, 5, 82);;
-    width: 100%;
+    background: rgb(82, 5, 82);
+    
+    
 }
 .contact-section-header{
     text-align: center;
@@ -401,6 +404,7 @@ img {
     font-size: 1rem;
     display: grid;
     place-items: center;
+    
     
 }
 .contact-link{
@@ -620,6 +624,8 @@ path {
     display: flex;
     justify-content: center;
     padding-bottom: 5rem;
+    
+   
 }
 .about .second {
     margin: 0;
@@ -639,6 +645,7 @@ path {
 .second h2 {
     font-size: 2.3rem;
 }
+
 @media(max-width:690px) {
     .visible {
         display: none;
