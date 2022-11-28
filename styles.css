@@ -425,6 +425,9 @@ img {
     height: 7vmin;
     
 }
+.contact-link a i {
+    font-size: 17px;
+}
 
 .contact-link > a:hover {
    color: rgb(199, 115, 199);
