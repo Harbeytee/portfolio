@@ -422,10 +422,10 @@ img {
     margin-right: 0.35rem;
     font-size: 1.1rem;
     color: rgb(190, 187, 187);
-    padding: 0.5rem;
+    
     border-radius: 50%;
-    width: 7vmin;
-    height: 7vmin;
+    width: 10vmin;
+    height: 10vmin;
     
 }
 .contact-link > a:hover {
